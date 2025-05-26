@@ -27,8 +27,11 @@ def compactacaoDados(entrada, saida):
     
 
 if __name__ == '__main__':
+    
+    #removeu
     removeRegistro('outputAnimes.txt', 8)
 
+    #compactou
     compactacaoDados('outputRemovido.txt', 'outputCompactado.txt')
     
         
